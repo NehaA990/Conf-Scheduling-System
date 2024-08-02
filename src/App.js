@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Schedule from './Schedule';
+import SpeakerList from './SpeakerList';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src="./csslogo.webp" alt="logo" className="App-logo"/>
+        <h1>Conference Scheduling System</h1>
       </header>
+      <Schedule />
+      <SpeakerList />
     </div>
   );
 }
